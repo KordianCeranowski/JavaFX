@@ -1,0 +1,97 @@
+#container{
+    /*-fx-background-color: rgb(161, 77, 39);*/
+    -fx-min-height: 500px;
+    -fx-min-width: 800px;
+    -fx-font-style: italic;
+}
+
+#title{
+    -fx-font-size: 40;
+    -fx-text-fill: white;
+}
+
+#gridPanes{
+    -fx-vgap: 12px;
+    -fx-hgap: 20px;
+    -fx-padding: 10px;
+    -fx-grid-lines-visible: false;
+}
+
+#productDesc{
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+}
+
+#productImage{
+    -fx-fit-to-height: 40px;
+    -fx-fit-to-width: 40px;
+    /*-fx-max-height: 130px;*/
+    /*-fx-max-width: 130px;*/
+}
+
+#textFieldProduct{
+    -fx-max-width: 80px;
+}
+
+#money{
+    -fx-text-fill: white;
+    /*-fx-font-style: bold;*/
+}
+
+#error{
+    -fx-background-color: rgb(132, 126, 128);
+    -fx-text-fill: #292929;
+    -fx-wrap-text: true;
+    -fx-max-width: 220px;
+    -fx-alignment: CENTER;
+    -fx-padding: 15px;
+    -fx-text-alignment: center;
+}
+
+#invoice{
+    -fx-background-color: #888888;
+    -fx-min-width: 1000px;
+    -fx-min-height: 604px;
+    -fx-font-style: italic;
+    -fx-font-size: 17px;
+
+    /*-fx-border-color: black;*/
+}
+
+#invoiceProducts{
+    -fx-padding: 40px;
+    -fx-background-color: #8f8f8f;
+    -fx-alignment: center;
+    -fx-spacing: 30px;
+    /*-fx-border-color: black;*/
+}
+
+#summary{
+    /*-fx-border-color: black;*/
+    /*-fx-background-color: #8f8f8f;*/
+    -fx-spacing: 20px;
+}
+
+#invoiceName{
+    -fx-label-padding: 20px;
+    -fx-background-color: #8f8f8f;
+}
+
+#message{
+    -fx-background-color: rgb(210, 210, 214);
+    -fx-padding: 75px;
+    -fx-font-style: italic;
+    -fx-spacing: 20px;
+    -fx-min-width: 1000px;
+    -fx-min-height: 604px;
+    -fx-font-size: 15px;
+}
+
+#messageLabels{
+    -fx-spacing: 35px;
+}
+
+/*#invoiceName{*/
+/*    -fx-alignment: top center;*/
+/*}*/
+
